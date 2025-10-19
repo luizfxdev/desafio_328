@@ -112,7 +112,7 @@ O algoritmo utiliza **Bit Masking** para:
 
 - **Anime**: Demon Slayer: Kimetsu no Yaiba (Koyoharu Gotouge)
 - **Música**: "Kamado Tanjirou no Uta" - Akano
-- **Desenvolvimento**: [Luiz FX](https://github.com/luizfxdev)
+- **Desenvolvimento**: [Luiz FX](https://luizfxdev.com.br)
 
 ## 📄 Licença
 
