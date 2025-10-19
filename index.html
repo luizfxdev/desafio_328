@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Jornada do Herói - Demon Slayer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de fundo -->
+    <audio id="theme-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <div class="header">
+        <h1>⚔️ A Jornada do Herói</h1>
+        <p class="subtitle">Em Busca dos Artefatos Mágicos</p>
+      </div>
+
+      <!-- Seção de Entrada -->
+      <div class="input-section">
+        <label for="oni-power">Poder de Ataque do Oni (PA):</label>
+        <input type="number" id="oni-power" placeholder="Ex: 25" min="1" />
+
+        <label for="artifacts">Artefatos Mágicos (separados por vírgula):</label>
+        <input type="text" id="artifacts" placeholder="Ex: 12, 1, 19, 4, 14, 8" />
+      </div>
+
+      <!-- Seção de Botões -->
+      <div class="button-section">
+        <button class="glow-on-hover" id="calculate-btn" type="button">CALCULAR</button>
+        <button class="glow-on-hover" id="return-btn" type="button">RETORNAR</button>
+      </div>
+
+      <!-- Seção de Resultado -->
+      <div class="result-section" id="result-section">
+        <h2>🔮 Resultado da Missão</h2>
+        <div id="result-content" class="result-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
